@@ -9,4 +9,4 @@ jobs:
             - name: Step One
               uses: actions/checkout@v2
             - name: Step Two
-              run: env | sort
+              run: echo "Hello world"
