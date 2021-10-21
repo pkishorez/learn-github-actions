@@ -1,0 +1,12 @@
+name: hello-workflow
+on: push
+
+jobs:
+    job-1:
+        name: Job 1
+        runs-on: ubuntu-latest
+        steps:
+            - name: Step One
+              uses: actions/checkout@v2
+            - name: Step Two
+              run: env | sort
